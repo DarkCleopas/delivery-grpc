@@ -6,7 +6,7 @@ service DeliveryService {
     rpc ListProducts (Empty) returns (ProductsList);
     rpc AddOrder (Order) returns (Empty);
     rpc ListOrders (Empty) returns (OrdersList);
-    rpc RemoveOrder (OrderId) returns (Order);
+    rpc RemoveOrder (OrderId) returns (OrderId);
     rpc FinishOrder (Empty) returns (OrderValue);
 }
 
@@ -35,7 +35,7 @@ message OrderId {
 }
 
 message OrderValue {
-    double orderValue = 1;
+    float orderValue = 1;
 }
 
 message Empty { }
