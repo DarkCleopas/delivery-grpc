@@ -1,0 +1,19 @@
+{
+  "name": "grpc_delivery",
+  "version": "1.0.0",
+  "description": "Supermarket delivery API with gRPC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkCleopas/delivery-grpc.git"
+  },
+  "author": "Beatriz Salles and Lucas Cleopas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkCleopas/delivery-grpc/issues"
+  },
+  "homepage": "https://github.com/DarkCleopas/delivery-grpc#readme"
+}
