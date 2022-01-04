@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package delivery;
+
+service DeliveryService {
+    rpc ListProducts (Empty) returns (ProductsList);
+    rpc AddOrder (Order) returns (Empty);
+    rpc ListOrders (Empty) returns (OrdersList);
+    rpc RemoveOrder (OrderId) returns (Order);
+    rpc FinishOrder (Empty) returns (OrderValue);
+}
+
+message Product {
+    int32 id = 1;
+    string name = 2;
+    float value = 3;
+    string category = 4;
+}
+
+message ProductsList {
+    repeated Product products = 1;
+}
+
+message Order {
+    int32 productId = 1;
+    int32 amount = 2;
+}
+
+message OrdersList {
+    repeated Order orders = 1;
+}
+
+message OrderId {
+    int32 orderId = 1;
+}
+
+message OrderValue {
+    double orderValue = 1;
+}
+
+message Empty { }
+
+

@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/DarkCleopas/delivery-grpc/issues"
   },
-  "homepage": "https://github.com/DarkCleopas/delivery-grpc#readme"
+  "homepage": "https://github.com/DarkCleopas/delivery-grpc#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.4.4",
+    "@grpc/proto-loader": "^0.6.7"
+  }
 }
