@@ -80,7 +80,7 @@ A aplicação funcionará no terminal aberto com o o comando de cliente.
 
 ## :page_facing_up: Licença
 
-Este projeto usa a licença [MIT](https://github.com/DarkCleopas/user-crud/blob/main/LICENSE).
+Este projeto usa a licença [MIT](https://github.com/DarkCleopas/delivery-grpc/blob/main/LICENSE).
 
 ## :woman_technologist: :man_technologist: Autores
 
