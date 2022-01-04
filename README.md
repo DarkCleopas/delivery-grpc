@@ -27,7 +27,7 @@
 
 Foi proposto a criação de um sistema durante um apocalipse zumbi.
 
-Foi proposto a criação de um projeto em Node.js e sockets que simulasse um sistema de supermercado delivery com as operações:  
+Foi proposto a criação de um projeto em Node.js e gRPC que simulasse um sistema de supermercado delivery com as operações:  
 
   - [x] Listar os produtos disponível
   - [x] Colocar um produto no carrinho
